@@ -117,9 +117,10 @@ REST_FRAMEWORK = {
 
 
 #CORS Settings
-CORS_ORIGIN_WHITELIST = (
-    'https://localhost:3000',
-)
+# CORS_ORIGIN_WHITELIST = (
+#     'https://localhost:3000/login',
+# )
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 JWT_AUTH = {
