@@ -1,7 +1,9 @@
 # django_react_authentication
+
 Deploy authentication system between django and react
 
 ## install some packages
+
  Django, Django REST framework (hereafter referred to as the DRF), Django REST framework JWT, and Django CORS headers.
 
  ```bash
@@ -10,5 +12,3 @@ Deploy authentication system between django and react
  pip install djangorestframework-jwt
  pip install django-cors-headers
  ```
-
- 
