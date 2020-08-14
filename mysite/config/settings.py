@@ -122,6 +122,11 @@ CORS_ORIGIN_WHITELIST = (
 )
 
 
+JWT_AUTH = {
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'mysite.utils.my_jwt_response_handler'
+}
+
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
